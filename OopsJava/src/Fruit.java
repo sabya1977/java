@@ -9,8 +9,14 @@ public class Fruit extends Item {
     public String getType () {
         return type;
     }
+
+//    @Override
+//    public String toString() {
+//        return "Item Name: " + getName() + ", Category: " + getCategory() + ", Type: " + getType() + ", Qty: " + getQuantity();
+//    }
+
     @Override
-    public String toString() {
+    public String getAll() {
         return "Item Name: " + getName() + ", Category: " + getCategory() + ", Type: " + getType() + ", Qty: " + getQuantity();
     }
 }

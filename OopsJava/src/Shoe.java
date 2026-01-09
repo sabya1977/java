@@ -16,8 +16,13 @@ public class Shoe extends Item {
         return size;
     }
 
+//    @Override
+//    public String toString() {
+//        return "Item Name: " + getName() + ", Category: " + getCategory() + ", Type: " + getType() + ", Size: " + getSize() + ", Qty: " + getQuantity();
+//    }
+
     @Override
-    public String toString() {
+    public String getAll() {
         return "Item Name: " + getName() + ", Category: " + getCategory() + ", Type: " + getType() + ", Size: " + getSize() + ", Qty: " + getQuantity();
     }
 }

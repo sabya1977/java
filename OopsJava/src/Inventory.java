@@ -11,9 +11,9 @@ public class Inventory {
         }
 
         public void displayInventory() {
-            System.out.println("Items in the inventory");
+
             for (Item item: items) {
-                System.out.println (item.toString());
+                System.out.println (item.getAll());
             }
         }
 }

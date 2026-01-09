@@ -21,8 +21,12 @@ public class Item {
         this.category = category;
     }
 
-    @Override
-    public String toString() {
+//    @Override
+//    public String toString() {
+//        return "Item Name: " + getName() + ", Category: " + getCategory() + ", Quantity: " + getQuantity();
+//    }
+
+    public String getAll() {
         return "Item Name: " + getName() + ", Category: " + getCategory() + ", Quantity: " + getQuantity();
     }
 }
