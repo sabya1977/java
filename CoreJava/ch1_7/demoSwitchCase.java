@@ -1,6 +1,6 @@
 import java.util.ArrayList;
 
-class switchtest {
+class demoSwitchCase {
         
     public static boolean chkLeapYear(int year) {
         if (year % 4 == 0) {
@@ -81,7 +81,26 @@ class switchtest {
                 IO.println("Invalid month");
                 break;
             }
-            System.out.printf("Month is: %d\n", month);
+            
+            String monthLabel = switch(month) {
+                case 1 -> { yield "January";}
+                case 2 -> { yield "February"; }
+                case 3 -> { yield "March"; }
+                case 4 -> { yield "April"; } 
+                case 5 -> { yield "May"; }
+                case 6 -> { yield "June"; }
+                case 7 -> { yield "July"; }
+                case 8 -> { yield "August"; }
+                case 9 -> { yield "Sepember"; }
+                case 10 -> { yield "October"; }
+                case 11 -> { yield "November"; }
+                case 12 -> { yield "December"; }
+                default -> { yield "Invalid Month"; }
+            };
+                
+            System.out.printf("Year: %d\n", year);
+            System.out.printf("Month name: %s\n", monthLabel);
             System.out.printf("Number of days: %d\n", numDays);
+
         }
     }
