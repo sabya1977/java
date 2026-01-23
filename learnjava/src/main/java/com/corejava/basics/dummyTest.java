@@ -1,3 +1,4 @@
+package com.corejava.basics;
 public class dummyTest {
     public static boolean chkLeapYear(int year) {
         if (year % 4 == 0) {

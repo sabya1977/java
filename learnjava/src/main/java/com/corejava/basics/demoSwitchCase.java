@@ -1,3 +1,4 @@
+package com.corejava.basics;
 import java.util.ArrayList;
 
 class demoSwitchCase {

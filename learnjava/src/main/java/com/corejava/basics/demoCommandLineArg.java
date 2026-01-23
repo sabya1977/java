@@ -1,3 +1,4 @@
+package com.corejava.basics;
 public class demoCommandLineArg {
     public static void main (String[] arg) {
         if (arg.length == 0) {
