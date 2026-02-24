@@ -1,4 +1,4 @@
-package com.corejava.basics;
+package com.corejava.basics.Arrays;
 import java.util.ArrayList;
 import java.util.Arrays;
 public class demoArrayCopy {

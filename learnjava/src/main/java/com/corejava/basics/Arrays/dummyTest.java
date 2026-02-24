@@ -1,4 +1,4 @@
-package com.corejava.basics;
+package com.corejava.basics.Arrays;
 public class dummyTest {
     public static boolean chkLeapYear(int year) {
         if (year % 4 == 0) {

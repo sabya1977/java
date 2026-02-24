@@ -1,4 +1,4 @@
-package com.corejava.basics;
+package com.corejava.basics.Arrays;
 import java.util.Arrays;
 
 class demoArray {
