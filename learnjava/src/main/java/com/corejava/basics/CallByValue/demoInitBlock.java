@@ -1,4 +1,4 @@
-package com.corejava.oops;
+package com.corejava.basics.CallByValue;
 
 public class demoInitBlock {
     Employee fred = new Employee("Fred", 100_00);
