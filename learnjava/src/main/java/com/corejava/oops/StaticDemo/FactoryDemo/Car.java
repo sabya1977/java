@@ -1,28 +1,23 @@
 package com.corejava.oops.StaticDemo.FactoryDemo;
 public abstract class Car {
 
-        private String name;
+        private String make;
         private String model;
-        private String brand;
-        private float price;
+        int year;
 
-        public String getName() {
-                return name;
+        public String getMake() {
+                return make;
         }
 
         public String getModel() {
                 return model;
         }
 
-        public String getBrand() {
-                return brand;
+        public int getyear() {
+                return year;
         }
 
-        public float getPrice() {
-                return price;
-        }
-
-        public void deliver() {}
+        public abstract void deliver();
 }
 
 
