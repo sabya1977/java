@@ -18,6 +18,12 @@ public abstract class Car {
         }
 
         public abstract void deliver();
+
+        public Car (String make, String model, int year) {
+                this.make = make;
+                this.model = model;
+                this.year = year;
+        }
 }
 
 

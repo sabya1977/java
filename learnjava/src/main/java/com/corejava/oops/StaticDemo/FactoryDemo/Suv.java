@@ -22,4 +22,17 @@ public class Suv extends Car {
         return engineCapacity;
     }
 
+    public Suv (String make, 
+                  String model, 
+                  int year, 
+                  double trunkCapacityInLiters, 
+                  boolean hasSunroof, 
+                  int engineCapacity) 
+    {
+        super(make, model, year);
+        this.engineCapacity = engineCapacity;
+        this.trunkCapacityInLiters = trunkCapacityInLiters;
+        this.hasSunroof = hasSunroof;        
+    }
+
 }

@@ -20,4 +20,18 @@ public class Sedan extends Car {
     public int getEngineCapacity () {
         return engineCapacity;
     }
+
+    public Sedan (String make, 
+                  String model, 
+                  int year, 
+                  double trunkCapacityInLiters, 
+                  boolean hasSunroof, 
+                  int engineCapacity) 
+    {
+        super(make, model, year);
+        this.engineCapacity = engineCapacity;
+        this.trunkCapacityInLiters = trunkCapacityInLiters;
+        this.hasSunroof = hasSunroof;
+        
+    }
 }
